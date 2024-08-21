@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "azure_func_asp_net_core_integration_middleware_issue": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7232",
+      "launchBrowser": false
+    }
+  }
+}
