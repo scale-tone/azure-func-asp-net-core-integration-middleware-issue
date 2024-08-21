@@ -17,6 +17,7 @@ var host = new HostBuilder()
         },
         async (FunctionContext context, Func<Task> next) =>
         {
+            // Produces 400 Bad Request
             await next();
 
             var httpContext = context.GetHttpContext();
